@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotRat", "HotRat.csproj", "{1173029D-B945-43DF-975E-21EAD55768A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleLoadingSystem", "ModuleLoadingSystem\ModuleLoadingSystem.csproj", "{253CC59E-49DF-4E0A-B178-DB205496F37D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1173029D-B945-43DF-975E-21EAD55768A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1173029D-B945-43DF-975E-21EAD55768A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1173029D-B945-43DF-975E-21EAD55768A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1173029D-B945-43DF-975E-21EAD55768A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253CC59E-49DF-4E0A-B178-DB205496F37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253CC59E-49DF-4E0A-B178-DB205496F37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253CC59E-49DF-4E0A-B178-DB205496F37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253CC59E-49DF-4E0A-B178-DB205496F37D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {46C52F80-9935-4B46-8E7F-574D9237C57A}
+		SolutionGuid = {6E63D5D5-6DE2-4D5D-9F9A-5523D71AEEB0}
 	EndGlobalSection
 EndGlobal

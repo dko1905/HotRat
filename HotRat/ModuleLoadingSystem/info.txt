@@ -1,0 +1,11 @@
+C:\Users\danie\Documents\Projects\HotRat\HotRat\ModuleLoadingSystem\bin\Debug\ModuleLoadingSystem.dll
+
+[System.Reflection.Assembly]::LoadFile("C:\Users\danie\Documents\Projects\HotRat\HotRat\ModuleLoadingSystem\bin\Debug\ModuleLoadingSystem.dll")
+
+$MyCompObj = New-Object ModuleLoadingSystem.ModuleLoadingSystem
+
+[string[]]$Sources = "// System.dll,System.IO.dll`nusing System;`nusing System.IO;`npublic class test{ public void testFun() { Console.WriteLine(432); } }"
+
+$test = $MyCompObj.Compile($Sources, "test")
+
+$test2 = New-Object $test
